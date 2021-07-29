@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Credit Card Checkout Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h3>#002</h3>
+    <h1>CREDIT CARD CHECKOUT</h1>
+
+    <div class="flex-container">
+        <div class="flex left-div">
+            <img id="dress-img" src="images/image.jpg" alt="dress" width="60%">
+            <hr style="border: 1px solid rgb(212, 209, 209);">
+
+            <h3 style="color: rgb(83, 81, 81)">Vintage Velvet Dress</h3>
+
+            <hr style="border: 1px solid rgb(212, 209, 209);">
+
+            <h1 id="price">$ 33.58</h1>
+        </div>
+
+        <div class="flex right-div">
+            <h2>PAYMENT DETAILS</h2>
+            <form id="form">
+                <div class = "form-div">
+                    <label class="label" for="Payment-Method">Choose Payment Method</label>
+                    <select id="Payment-Method">
+                        <option value="Cash on Delievery">Cash On Delievery</option>
+                        <option value="upi">upi</option>
+                        <option value="Net Banking" selected>Net Banking</option>
+                    </select>
+                </div>
+                <div class = "form-div">
+                    <label class = "label" for = "name">Cardholder's Name</label>
+                    <input class = "input" type = "text" id = "name">
+                </div>
+
+                <div class = "form-div">
+                    <label class = "label" for = "date">Expiry Date</label>
+                    <input class = "input" type = "date" id = "date">
+                </div>
+
+                <div class = "form-div">
+                    <label class = "label" for = "number">Card Number</label>
+                    <input class = "input" type = "password" id = "number">
+                </div>
+
+                <div class = "form-div">
+                    <label class = "label" for = "CVV">CVV/CVC</label>
+                    <input class = "input" type = "password" id = "CVV">
+                </div>
+
+
+            </form>
+            <hr style="margin-top: 10%; border: 1px solid rgb(151, 150, 150);">
+            <h3 style= "text-align: left; margin-left: 5%; font-weight: 100;">NEXT STEP</h3>
+
+        </div>
+    </div>
+</body>
